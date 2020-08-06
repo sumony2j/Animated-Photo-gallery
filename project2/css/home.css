@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+      color: #fcfcfc;
+      background-color: #ccc;
+      font:'roboto',arial,sans-serif;
+    }
+/*****************************************************************************
+ Styling The Header
+******************************************************************************/
+header{
+    width: 100%;
+    height:10em;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+       }
+header a{
+    padding: 2em;
+    font-family:monospace;
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    background-color: blue;
+    padding: 2em;
+    color: red;
+    border-radius: 20px;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 4em;
+    flex-flow: nowrap;
+    overflow: hidden;
+         }
+header li{
+    font-size: 15px;
+    list-style:none;
+         }
+/*****************************************************************************
+Styling The Footer
+******************************************************************************/
+footer{
+    background-color: black;
+    width: 100%;
+    height: 5em;
+      }
+footer p{
+    margin-left: 15em;
+    width: 40%;
+    word-spacing: 0.5em;
+    padding-top: 2em;
+    font-family: sans-serif;
+        }
+span{
+    position: absolute;
+    left: 20%;
+}
+/*****************************************************************************
+Styling The Body
+******************************************************************************/
+main ul img{
+    width: 100%;
+    height:17vh;
+    border: 10px black solid;
+    border-radius: 2em;
+    margin: 0;
+    padding: 0;
+           }
+main ul img:hover{
+    border: 10px solid red;
+    }
+main{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: hidden;
+    min-height: 750px;
+}
+main ul li{
+    list-style: none;
+    margin: 15px;
+    padding:20px;
+    width: 20%;
+    float: left;
+    padding-left: 0;
+           }
+main ul{
+    padding-left:7%;
+       }
