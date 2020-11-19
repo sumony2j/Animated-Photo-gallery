@@ -1,5 +1,5 @@
 # Animated-Photo-gallery
-<h3 style={'color:'red'}>A Photo gallery where someone can select their choices and get it's corresponding results.</h3>
+<h3 style={'color':'red'}>A Photo gallery where someone can select their choices and get it's corresponding results.</h3>
 
 It is created using Html,Css,Javascript.
 
